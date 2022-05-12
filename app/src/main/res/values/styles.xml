@@ -1,0 +1,6 @@
+<resources>
+    <!--主要的背景顏色-->
+    <style name="Apptheme" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="colorPrimaryDark">@color/mainbackgroundcolor</item>
+    </style>
+</resources>
