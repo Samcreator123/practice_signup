@@ -1,3 +1,9 @@
 git init : 在專案資料夾右鍵開啟後使用 將專案加入init
 
 git add 檔案.副檔名 : 將檔案導入git
+
+git add . 把所有紅色的檔案加入repository
+
+git commit -m "name" :以name的名字的存檔
+
+git commit 進入wim編輯器 esc+兩個大寫Z跳出
