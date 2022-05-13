@@ -4,6 +4,16 @@ git add 檔案.副檔名 : 將檔案導入git
 
 git add . 把所有紅色的檔案加入repository
 
+git status 查看目前還有甚麼沒加入repository
+
 git commit -m "name" :以name的名字的存檔
 
 git commit 進入wim編輯器 esc+兩個大寫Z跳出
+
+git remote add "name" "網址" 把要po上去的東西對接網址 但還沒push
+
+git remote 查看remote過的名字
+
+git push -u "name" master 預設為name的push上去
+
+git push 有預設過後可以push
