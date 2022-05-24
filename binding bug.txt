@@ -1,0 +1,1 @@
+view binding無法實作 等有空回來debug
