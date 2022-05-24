@@ -1,3 +1,15 @@
+
+npm init
+npm install nodemon -g
+package.json => script => 
+"start" = "nodemon app.js",
+"start -server" ="node app.js"
+npm install express --save
+npm install body-parser
+npm install socket.io
+npm install --save knex
+
+
 git init : 在專案資料夾右鍵開啟後使用 將專案加入init
 
 git add 檔案.副檔名 : 將檔案導入git
