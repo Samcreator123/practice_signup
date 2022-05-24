@@ -10,9 +10,9 @@ npm install socket.io
 npm install --save knex
 
 
-git init : 在專案資料夾右鍵開啟後使用 將專案加入init
+git init : 在專案資料夾右鍵開啟後使用 將專案加入init 建立一個repository
 
-git add 檔案.副檔名 : 將檔案導入git
+git add 檔案.副檔名 : 將檔案新增到資料夾
 
 git add . 把所有紅色的檔案加入repository
 
@@ -26,6 +26,15 @@ git remote add "name" "網址" 把要po上去的東西對接網址 但還沒push
 
 git remote 查看remote過的名字
 
+git reset --soft HEAD~number number是看你要回到幾個commit之前
+
 git push -u "name" master 預設為name的push上去
 
 git push 有預設過後可以push
+
+git pull 每次更新要先拉下來
+
+git reset -- 檔案.副檔名 把repository的資料拉下來
+
+git checkout -- 檔名.副檔名 把git reset下來 或 更動的資料回復到上個commit
+
