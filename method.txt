@@ -26,7 +26,7 @@ git remote add "name" "網址" 把要po上去的東西對接網址 但還沒push
 
 git remote 查看remote過的名字
 
-git reset --soft HEAD~number number是看你要回到幾個commit之前
+git reset --soft HEAD~number number是看你要回到幾個commit
 
 git push -u "name" master 預設為name的push上去
 
